@@ -1,0 +1,95 @@
+/*
+	Whiskey Tango Foxtrot styles.
+
+	blue : #0b1e46
+	red  : #c12d11
+	white: #FFFBF0
+
+*/
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body { 
+	font-family: 'Oswald', arial, sans-serif; 
+	margin: 0;
+	padding: 50px;
+	background: #bbcbc9;
+	color: #0b1e46;
+	letter-spacing: 0.02em;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+	color: #0b1e46;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active, a:hover {
+	outline: 0;
+	color: #c12d11;
+}
+
+header { 
+	margin-bottom: 30px; 
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0 0 0.25em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-shadow: -3px 3px 0 #F5F4EE;
+}
+
+p {
+	margin: 0 0 1.5em;
+	text-transform: uppercase;
+}
+
+.content {
+	margin-bottom: 30px;
+}
+
+footer {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.input { 
+	width: 100%; 
+	max-width: 600px; 
+	margin: 0; 
+	padding: 15px 15px 13px 15px; 
+	background: #F5F4EE;
+	color: inherit;
+	border: 5px solid #F5F4EE;
+	font-family: 'Special Elite', arial, sans-serif;
+	font-size: 1.25em;
+	line-height: normal;
+	outline: none;
+}
+
+.input:focus {
+	border-color: #A2BDBA;
+}
+
+.result { 
+	font-size: 1.75em; 
+	width: 100%; 
+	max-width: 570px; 
+	background:#A2BDBA; 
+	color: #c12d11;
+	padding: 15px; 
+}

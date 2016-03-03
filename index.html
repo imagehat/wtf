@@ -1,0 +1,32 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Whiskey Tango Foxtrot</title>
+	<meta name="description" content="Translate letters and numbers to NATO phonetic code words as you type.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Special+Elite|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+	<!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script
+    <![endif]-->
+</head>
+<body>
+	
+	<header>
+		<h1>Whiskey Tango Foxtrot</h1>
+		<p>Type below to convert to <a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet">NATO phonetic code words</a>.</p>
+	</header>
+	
+	<main class="content" id="app">
+		<input class="input" v-model="input" v-focus placeholder="type here...">
+		<div class="result" v-show="input">{{ phonetic }}</div>
+	</main>
+
+	<footer>
+		<p>Established 2016 <span>★</span> <a href="https://github.com/imagehat/wtf">Download the source code</a></p>
+	</footer>
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.16/vue.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
